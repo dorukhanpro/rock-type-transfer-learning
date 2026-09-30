@@ -1,6 +1,21 @@
 .venv/
 __pycache__/
 *.py[cod]
-data/
-outputs/
 .DS_Store
+
+data/
+datasets/
+models/
+results/
+outputs/
+*.pth
+*.pt
+*.zip
+*.ipynb
+
+.env
+.env.*
+!.env.example
+locations*.json
+fake_rocks.json
+test images/
